@@ -1,0 +1,10 @@
+.panier-item{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	color: whitesmoke;
+	width: 100%;
+	height: 100px;
+}

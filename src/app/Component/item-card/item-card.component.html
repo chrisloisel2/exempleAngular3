@@ -1,0 +1,8 @@
+<div class="card">
+	<h2>Item</h2>
+	<h4><b>{{item.name}}</b></h4>
+	<p>{{item.price}}$</p>
+	<p>{{item.type}}</p>
+	<button (click)="panier.addToPanier(item)">Add to cart</button>
+	<button (click)="items.handleHideItem(item)">Hide</button>
+</div>
